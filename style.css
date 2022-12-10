@@ -1,0 +1,41 @@
+#header {
+    font-size: 100px;
+    text-align: center;
+    padding: 200px;
+  }
+  .column {
+    padding-left: 10%;
+    padding-right: 10%;
+    float: left;
+    width: 10%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+body {
+  background-color: #000000;
+}
+h1{
+    color: white;
+}
+.img{
+    width: 300px;
+    height: 400px;
+}
+img:hover{
+     transition: transform 0.5s; 
+ transform: scale(0.95); 
+}
+.footer {
+    background-color: #00008b;
+    text-align: center;
+    padding: 10px;
+
+  }
+   p{
+    color: white;
+   }
